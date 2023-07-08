@@ -1,0 +1,63 @@
+.topnav{ 
+    
+    z-index: 1;
+    position: fixed;
+    overflow: hidden;  
+    background-color: rgb(231, 231, 245);
+    opacity: 70%;
+    height: 40px;
+}
+.topnav a{
+    
+    display: block;
+    float: left;
+    text-align: center;
+    color: rgb(17, 18, 19);
+    padding: 13px 150px;
+}
+.topnav a:hover:not(.active){
+    background-color: rgb(180, 180, 233);
+    color: rgb(213, 213, 231)
+}
+.active{
+    background-color: green;
+}
+body{
+    background-color: rgb(243, 236, 227);
+    background-image: url("32608.jpg");
+    background-attachment: fixed;
+
+}
+.img{
+    position: relative;
+    top:40px;
+    margin-left:200px; 
+    height: 250px ;
+    width: 400px;
+    breath
+}
+#contant{
+    
+    
+    position: relative; 
+    
+    color:white;
+    
+}
+.sidemenu{
+    top:40px;
+    position: fixed;
+    width: 150px;
+    height: 100%;opacity: 70%;
+    
+    background-color: rgb(237, 225, 225);
+}
+.sidemenu a{
+    display: block;
+    padding: 20px 8px;
+
+}
+.babu{
+    display:flex;
+    gap: 20px;
+}
